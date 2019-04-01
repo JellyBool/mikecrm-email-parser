@@ -5,7 +5,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/JellyBool/mikecrm-email-parser.svg?style=flat-square)](https://scrutinizer-ci.com/g/jellybool/mikecrm-email-parser)
 [![Total Downloads](https://img.shields.io/packagist/dt/JellyBool/mikecrm-email-parser.svg?style=flat-square)](https://packagist.org/packages/jellybool/mikecrm-email-parser)
 
-使用 麦客 CRM 收款的时候，可以使用此 Package 来解析邮件内容，从而完成订单的通知。
+使用 麦客 CRM 个人收款的时候，可以使用此 Package 来解析邮件内容，从而完成订单的通知。
 
 ## Installation
 
