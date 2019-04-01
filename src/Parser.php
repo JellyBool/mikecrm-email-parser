@@ -19,9 +19,9 @@ class Parser {
     /**
      * Parser constructor.
      */
-    public function __construct($rules = [])
+    public function __construct($body = null, $rules = [])
     {
-        $this->body = json_decode(file_get_contents('php://input'), true);
+        $this->body = $body ? $body : json_decode(file_get_contents('php://input'), true);
         $this->rules = count($rules) > 0 ? $rules : [];
     }
 
