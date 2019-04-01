@@ -58,7 +58,7 @@ If you discover any security related issues, please email ly913417651@gmail.com 
 
 ## Credits
 
-- [JwllyBool](https://github.com/jellybool)
+- [JellyBool](https://github.com/jellybool)
 - [All Contributors](../../contributors)
 
 ## License
