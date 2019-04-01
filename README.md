@@ -29,6 +29,10 @@ use Jellybool\MikeCRMEmailParser\Parser;
  $parser->text();
  // 返回邮件的 text 内容
  
+ // 在处理订单之前，使用 verify 做简单的验证
+ 
+ $parser->verify(); // true 或 false, 为了验证是否是 mikecrm 官方发送的邮件
+ 
  $parser->order();
  [
   // 这个是 mikecrm 自己维护的订单号
