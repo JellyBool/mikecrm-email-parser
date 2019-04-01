@@ -1,9 +1,9 @@
 # 麦客CRM 的邮件内容解析
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/jellybool/mikecrm-email-parser.svg?style=flat-square)](https://packagist.org/packages/jellybool/mikecrm-email-parser)
-[![Build Status](https://img.shields.io/travis/jellybool/mikecrm-email-parser/master.svg?style=flat-square)](https://travis-ci.org/jellybool/mikecrm-email-parser)
-[![Quality Score](https://img.shields.io/scrutinizer/g/jellybool/mikecrm-email-parser.svg?style=flat-square)](https://scrutinizer-ci.com/g/jellybool/mikecrm-email-parser)
-[![Total Downloads](https://img.shields.io/packagist/dt/jellybool/mikecrm-email-parser.svg?style=flat-square)](https://packagist.org/packages/jellybool/mikecrm-email-parser)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/JellyBool/mikecrm-email-parser.svg?style=flat-square)](https://packagist.org/packages/jellybool/mikecrm-email-parser)
+[![Build Status](https://img.shields.io/travis/JellyBool/mikecrm-email-parser/master.svg?style=flat-square)](https://travis-ci.org/JellyBool/mikecrm-email-parser)
+[![Quality Score](https://img.shields.io/scrutinizer/g/JellyBool/mikecrm-email-parser.svg?style=flat-square)](https://scrutinizer-ci.com/g/jellybool/mikecrm-email-parser)
+[![Total Downloads](https://img.shields.io/packagist/dt/JellyBool/mikecrm-email-parser.svg?style=flat-square)](https://packagist.org/packages/jellybool/mikecrm-email-parser)
 
 使用 麦客 CRM 收款的时候，可以使用此 Package 来解析邮件内容，从而完成订单的通知。
 
@@ -64,7 +64,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
-- [JellyBool](https://github.com/jellybool)
+- [JellyBool](https://github.com/JellyBool)
 - [All Contributors](../../contributors)
 
 ## License
