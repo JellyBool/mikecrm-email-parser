@@ -3,6 +3,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/JellyBool/mikecrm-email-parser.svg?style=flat-square)](https://packagist.org/packages/jellybool/mikecrm-email-parser)
 [![Build Status](https://img.shields.io/travis/JellyBool/mikecrm-email-parser/master.svg?style=flat-square)](https://travis-ci.org/JellyBool/mikecrm-email-parser)
 [![Quality Score](https://img.shields.io/scrutinizer/g/JellyBool/mikecrm-email-parser.svg?style=flat-square)](https://scrutinizer-ci.com/g/jellybool/mikecrm-email-parser)
+[![Build Status](https://scrutinizer-ci.com/g/JellyBool/mikecrm-email-parser/badges/build.png?b=master)](https://scrutinizer-ci.com/g/JellyBool/mikecrm-email-parser/build-status/master)
 [![Total Downloads](https://img.shields.io/packagist/dt/JellyBool/mikecrm-email-parser.svg?style=flat-square)](https://packagist.org/packages/jellybool/mikecrm-email-parser)
 
 使用 麦客 CRM 个人收款的时候，可以使用此 Package 来解析邮件内容，从而完成订单的通知。
