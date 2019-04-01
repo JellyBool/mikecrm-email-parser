@@ -19,9 +19,9 @@ class Parser {
     /**
      * Parser constructor.
      */
-    public function __construct($body = null, $rules = [])
+    public function __construct($rules = [])
     {
-        $this->body = $body ?: json_decode(file_get_contents('php://input'), true);
+        $this->body = json_decode(file_get_contents('php://input'), true);
         $this->rules = count($rules) > 0 ? $rules : [];
     }
 
@@ -61,6 +61,14 @@ class Parser {
             'platform_no' => $this->getMatchText($platformRule),
             'trade_no'    => $this->getMatchText($tradeRule),
         ];
+    }
+
+    /**
+     * @return bool
+     */
+    public function verify()
+    {
+        return isset($this->body['from']) && $this->body['from'] == 'service@mikecrm-notice.com';
     }
 
     /**
