@@ -18,6 +18,7 @@ composer require jellybool/mikecrm-email-parser
 ## Usage
 
 ``` php
+use Jellybool\MikeCRMEmailParser\Parser;
 
  $parser = new Parser();
  
