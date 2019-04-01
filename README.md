@@ -1,4 +1,4 @@
-# 麦客CRM 的邮件内容解析
+# 麦客CRM个人收款 邮件内容解析
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/JellyBool/mikecrm-email-parser.svg?style=flat-square)](https://packagist.org/packages/jellybool/mikecrm-email-parser)
 [![Build Status](https://img.shields.io/travis/JellyBool/mikecrm-email-parser/master.svg?style=flat-square)](https://travis-ci.org/JellyBool/mikecrm-email-parser)
