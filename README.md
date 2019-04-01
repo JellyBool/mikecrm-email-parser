@@ -22,6 +22,12 @@ use Jellybool\MikeCRMEmailParser\Parser;
 
  $parser = new Parser();
  
+ $parser->html();
+ // 返回邮件的 html 内容
+ 
+ $parser->text();
+ // 返回邮件的 text 内容
+ 
  $parser->order();
  [
   // 这个是 mikecrm 自己维护的订单号
@@ -32,11 +38,14 @@ use Jellybool\MikeCRMEmailParser\Parser;
   "trade_no" => "386815541285972686"
 ]
 
- $parser->html();
- // 返回邮件的 html 内容
+ // 如果说你需要自定义返回的 order，可以传入自定义的 正则表达式
+ $rules = [
+    'mike' => '//', // 这里写你自定义的正则表达式即可
+    'platform' => '//',
+    'trade' => '//',
+ ]
  
- $parser->text();
- // 返回邮件的 text 内容
+  $parser = new Parser($rules);
 ```
 
 ### Testing
