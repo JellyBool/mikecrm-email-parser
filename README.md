@@ -1,11 +1,11 @@
-# Very short description of the package
+# 麦客CRM 的邮件内容解析
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jellybool/mikecrm-email-parser.svg?style=flat-square)](https://packagist.org/packages/jellybool/mikecrm-email-parser)
 [![Build Status](https://img.shields.io/travis/jellybool/mikecrm-email-parser/master.svg?style=flat-square)](https://travis-ci.org/jellybool/mikecrm-email-parser)
 [![Quality Score](https://img.shields.io/scrutinizer/g/jellybool/mikecrm-email-parser.svg?style=flat-square)](https://scrutinizer-ci.com/g/jellybool/mikecrm-email-parser)
 [![Total Downloads](https://img.shields.io/packagist/dt/jellybool/mikecrm-email-parser.svg?style=flat-square)](https://packagist.org/packages/jellybool/mikecrm-email-parser)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+使用 麦客 CRM 收款的时候，可以使用此 Package 来解析邮件内容，从而完成订单的通知。
 
 ## Installation
 
